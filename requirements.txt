@@ -1,0 +1,16 @@
+jax
+flax
+optax
+
+einops
+tqdm
+wandb
+
+# Tensorflow is only used for dataloading. Hopefully newer versions will work as well.
+tensorflow-cpu==2.15.0.post1
+tensorflow-datasets==4.9.4
+# Keras is only used for Cifar image augmentations
+keras==2.15.0
+keras-cv==0.7.2
+
+scipy
